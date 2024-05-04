@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="a284f9b2-d1b4-4553-966b-11ef699ddbd3" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/src/main/java/com/will/amberx/jeezz/JeezzApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/will/amberx/jeezz/pojo/EventDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/will/amberx/jeezz/pojo/EventSeatingCategory.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/com/will/amberx/jeezz/JeezzApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
@@ -13,6 +15,14 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />

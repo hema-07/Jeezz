@@ -1,18 +1,33 @@
 package com.will.amberx.jeezz.pojo;
 
-import lombok.Builder;
-import lombok.Getter;
-import lombok.Setter;
+import lombok.*;
 
+/**
+ * Event Registration POJO
+ */
 @Builder
 @Setter
 @Getter
+@ToString
+@AllArgsConstructor
+@NoArgsConstructor
 public class EventRegistration {
 
-    private String firstName;
-    private String lastName;
-    private String gender;
-    private String age;
-    private EventDetails eventDetails;
-    private EventSeatingCategory seatingCategory;
+    private long eventId;
+
+    private String eventCode;
+
+    private String eventName;
+
+    private String eventDescription;
+
+    private double eventPrice;
+
+    private String eventLocation;
+
+    private String eventTheme;
+
+    private EventSeatingCategory category;
+
+    private int numberOfSeats;
 }

@@ -2,14 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a284f9b2-d1b4-4553-966b-11ef699ddbd3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/will/amberx/jeezz/JeezzApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/will/amberx/jeezz/pojo/EventDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/will/amberx/jeezz/pojo/EventSeatingCategory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/will/amberx/jeezz/JeezzApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_h2database_h2_2_2_224.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_13_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_json_json_20240303.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/will/amberx/jeezz/controller/JeezzController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/will/amberx/jeezz/pojo/SeatingDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/will/amberx/jeezz/repository/SeatingDetailsRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/will/amberx/jeezz/service/JeezzService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/will/amberx/jeezz/service/JeezzServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/will/amberx/jeezz/util/JeezzUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/will/amberx/jeezz/service/JeezzServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_orm_hibernate_core_6_4_4_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_orm_hibernate_core_6_4_1_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeezz.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jeezz.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/will/amberx/jeezz/JeezzApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/will/amberx/jeezz/JeezzApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/will/amberx/jeezz/pojo/EventDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/will/amberx/jeezz/pojo/EventDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/will/amberx/jeezz/pojo/EventRegistration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/will/amberx/jeezz/pojo/EventRegistration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/will/amberx/jeezz/pojo/EventSeatingCategory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/will/amberx/jeezz/pojo/EventSeatingCategory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/will/amberx/jeezz/JeezzApplicationTests.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,12 +37,24 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
+        <option value="JUnit5 Test Class" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
   </component>
   <component name="ProjectId" id="2g0MrehGAFiXQFXwFzpPtNlbPM6" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -36,16 +65,63 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.will.amberx.jeezz.service" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$" />
     </key>
+  </component>
+  <component name="RunManager" selected="Application.JeezzApplication">
+    <configuration name="JeezzApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.will.amberx.jeezz.JeezzApplication" />
+      <module name="jeezz" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.will.amberx.jeezz.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JeezzServiceImplTest.getAllEventDetails" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jeezz" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.will.amberx.jeezz.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.will.amberx.jeezz.service" />
+      <option name="MAIN_CLASS_NAME" value="com.will.amberx.jeezz.service.JeezzServiceImplTest" />
+      <option name="METHOD_NAME" value="getAllEventDetails" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.JeezzApplication" />
+        <item itemvalue="JUnit.JeezzServiceImplTest.getAllEventDetails" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -61,9 +137,145 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="-1360" y="131" key="#Project_Structure" timestamp="1714833635477">
+    <state x="-1360" y="131" key="#Project_Structure" timestamp="1714836544321">
       <screen x="-1920" y="-73" width="1920" height="1080" />
     </state>
-    <state x="-1360" y="131" key="#Project_Structure/0.25.1440.875/-1920.-73.1920.1080@-1920.-73.1920.1080" timestamp="1714833635477" />
+    <state x="-1360" y="131" key="#Project_Structure/0.25.1440.875/-1920.-73.1920.1080@-1920.-73.1920.1080" timestamp="1714836544321" />
+    <state x="-1225" y="274" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1714834818743">
+      <screen x="-1920" y="-73" width="1920" height="1080" />
+    </state>
+    <state x="-1225" y="274" key="#com.intellij.fileTypes.FileTypeChooser/0.25.1440.875/-1920.-73.1920.1080@-1920.-73.1920.1080" timestamp="1714834818743" />
+    <state x="-1147" y="176" key="#com.intellij.ide.util.MemberChooser" timestamp="1714863949006">
+      <screen x="-1920" y="-73" width="1920" height="1080" />
+    </state>
+    <state x="-1147" y="176" key="#com.intellij.ide.util.MemberChooser/0.25.1440.875/-1920.-73.1920.1080@-1920.-73.1920.1080" timestamp="1714863949006" />
+    <state x="-965" y="244" key="#xdebugger.evaluate" timestamp="1714876703540">
+      <screen x="-1920" y="-73" width="1920" height="1080" />
+    </state>
+    <state x="-965" y="244" key="#xdebugger.evaluate/0.25.1440.875/-1920.-73.1920.1080@-1920.-73.1920.1080" timestamp="1714876703540" />
+    <state width="1878" height="425" key="GridCell.Tab.0.bottom" timestamp="1714879064086">
+      <screen x="-1920" y="-73" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="375" key="GridCell.Tab.0.bottom/0.0.1440.900/-1920.-73.1920.1080@-1920.-73.1920.1080" timestamp="1714852362555" />
+    <state width="1878" height="425" key="GridCell.Tab.0.bottom/0.25.1440.875/-1920.-48.1920.1055@-1920.-48.1920.1055" timestamp="1714878233135" />
+    <state width="1878" height="425" key="GridCell.Tab.0.bottom/0.25.1440.875/-1920.-73.1920.1080@-1920.-73.1920.1080" timestamp="1714879064086" />
+    <state width="1878" height="425" key="GridCell.Tab.0.center" timestamp="1714879064084">
+      <screen x="-1920" y="-73" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="375" key="GridCell.Tab.0.center/0.0.1440.900/-1920.-73.1920.1080@-1920.-73.1920.1080" timestamp="1714852362553" />
+    <state width="1878" height="425" key="GridCell.Tab.0.center/0.25.1440.875/-1920.-48.1920.1055@-1920.-48.1920.1055" timestamp="1714878233134" />
+    <state width="1878" height="425" key="GridCell.Tab.0.center/0.25.1440.875/-1920.-73.1920.1080@-1920.-73.1920.1080" timestamp="1714879064084" />
+    <state width="1878" height="425" key="GridCell.Tab.0.left" timestamp="1714879064081">
+      <screen x="-1920" y="-73" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="375" key="GridCell.Tab.0.left/0.0.1440.900/-1920.-73.1920.1080@-1920.-73.1920.1080" timestamp="1714852362549" />
+    <state width="1878" height="425" key="GridCell.Tab.0.left/0.25.1440.875/-1920.-48.1920.1055@-1920.-48.1920.1055" timestamp="1714878233132" />
+    <state width="1878" height="425" key="GridCell.Tab.0.left/0.25.1440.875/-1920.-73.1920.1080@-1920.-73.1920.1080" timestamp="1714879064081" />
+    <state width="1878" height="425" key="GridCell.Tab.0.right" timestamp="1714879064085">
+      <screen x="-1920" y="-73" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="375" key="GridCell.Tab.0.right/0.0.1440.900/-1920.-73.1920.1080@-1920.-73.1920.1080" timestamp="1714852362554" />
+    <state width="1878" height="425" key="GridCell.Tab.0.right/0.25.1440.875/-1920.-48.1920.1055@-1920.-48.1920.1055" timestamp="1714878233135" />
+    <state width="1878" height="425" key="GridCell.Tab.0.right/0.25.1440.875/-1920.-73.1920.1080@-1920.-73.1920.1080" timestamp="1714879064085" />
+    <state width="1878" height="425" key="GridCell.Tab.1.bottom" timestamp="1714879062122">
+      <screen x="-1920" y="-73" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="375" key="GridCell.Tab.1.bottom/0.0.1440.900/-1920.-73.1920.1080@-1920.-73.1920.1080" timestamp="1714852357099" />
+    <state width="1878" height="425" key="GridCell.Tab.1.bottom/0.25.1440.875/-1920.-48.1920.1055@-1920.-48.1920.1055" timestamp="1714878944577" />
+    <state width="1878" height="425" key="GridCell.Tab.1.bottom/0.25.1440.875/-1920.-73.1920.1080@-1920.-73.1920.1080" timestamp="1714879062122" />
+    <state width="1878" height="425" key="GridCell.Tab.1.center" timestamp="1714879062119">
+      <screen x="-1920" y="-73" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="375" key="GridCell.Tab.1.center/0.0.1440.900/-1920.-73.1920.1080@-1920.-73.1920.1080" timestamp="1714852357098" />
+    <state width="1878" height="425" key="GridCell.Tab.1.center/0.25.1440.875/-1920.-48.1920.1055@-1920.-48.1920.1055" timestamp="1714878944574" />
+    <state width="1878" height="425" key="GridCell.Tab.1.center/0.25.1440.875/-1920.-73.1920.1080@-1920.-73.1920.1080" timestamp="1714879062119" />
+    <state width="1878" height="425" key="GridCell.Tab.1.left" timestamp="1714879062119">
+      <screen x="-1920" y="-73" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="375" key="GridCell.Tab.1.left/0.0.1440.900/-1920.-73.1920.1080@-1920.-73.1920.1080" timestamp="1714852357097" />
+    <state width="1878" height="425" key="GridCell.Tab.1.left/0.25.1440.875/-1920.-48.1920.1055@-1920.-48.1920.1055" timestamp="1714878944571" />
+    <state width="1878" height="425" key="GridCell.Tab.1.left/0.25.1440.875/-1920.-73.1920.1080@-1920.-73.1920.1080" timestamp="1714879062119" />
+    <state width="1878" height="425" key="GridCell.Tab.1.right" timestamp="1714879062120">
+      <screen x="-1920" y="-73" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="375" key="GridCell.Tab.1.right/0.0.1440.900/-1920.-73.1920.1080@-1920.-73.1920.1080" timestamp="1714852357098" />
+    <state width="1878" height="425" key="GridCell.Tab.1.right/0.25.1440.875/-1920.-48.1920.1055@-1920.-48.1920.1055" timestamp="1714878944575" />
+    <state width="1878" height="425" key="GridCell.Tab.1.right/0.25.1440.875/-1920.-73.1920.1080@-1920.-73.1920.1080" timestamp="1714879062120" />
+    <state x="-1472" y="47" key="SettingsEditor" timestamp="1714836049049">
+      <screen x="-1920" y="-73" width="1920" height="1080" />
+    </state>
+    <state x="-1472" y="47" key="SettingsEditor/0.25.1440.875/-1920.-73.1920.1080@-1920.-73.1920.1080" timestamp="1714836049049" />
+    <state x="-1183" y="214" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1714837163508">
+      <screen x="-1920" y="-73" width="1920" height="1080" />
+    </state>
+    <state x="-1183" y="214" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.25.1440.875/-1920.-73.1920.1080@-1920.-73.1920.1080" timestamp="1714837163508" />
+    <state x="-1280" y="113" width="640" height="708" key="find.popup" timestamp="1714871878158">
+      <screen x="-1920" y="-73" width="1920" height="1080" />
+    </state>
+    <state x="-1280" y="113" width="640" height="708" key="find.popup/0.25.1440.875/-1920.-73.1920.1080@-1920.-73.1920.1080" timestamp="1714871878158" />
+    <state width="600" height="424" key="javadoc.popup" timestamp="1714861127629">
+      <screen x="-1920" y="-73" width="1920" height="1080" />
+    </state>
+    <state width="600" height="424" key="javadoc.popup/0.25.1440.875/-1920.-73.1920.1080@-1920.-73.1920.1080" timestamp="1714861127629" />
+    <state x="-1295" y="219" key="run.anything.popup" timestamp="1714852721222">
+      <screen x="-1920" y="-73" width="1920" height="1080" />
+    </state>
+    <state x="-1295" y="219" key="run.anything.popup/0.25.1440.875/-1920.-73.1920.1080@-1920.-73.1920.1080" timestamp="1714852721222" />
+    <state x="-1295" y="129" width="670" height="676" key="search.everywhere.popup" timestamp="1714868700385">
+      <screen x="-1920" y="-73" width="1920" height="1080" />
+    </state>
+    <state x="-1295" y="129" width="670" height="676" key="search.everywhere.popup/0.25.1440.875/-1920.-73.1920.1080@-1920.-73.1920.1080" timestamp="1714868700385" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/will/amberx/jeezz/service/JeezzServiceImplTest.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/will/amberx/jeezz/controller/JeezzController.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/will/amberx/jeezz/controller/JeezzController.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/will/amberx/jeezz/pojo/EventDetails.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/will/amberx/jeezz/service/JeezzServiceImpl.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/will/amberx/jeezz/service/JeezzServiceImpl.java</url>
+          <line>71</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/will/amberx/jeezz/service/JeezzServiceImpl.java</url>
+          <line>29</line>
+          <properties class="com.will.amberx.jeezz.service.JeezzServiceImpl" method="getAllEventDetails">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/will/amberx/jeezz/service/JeezzService.java</url>
+          <line>13</line>
+          <properties class="com.will.amberx.jeezz.service.JeezzService" method="saveEventDetails">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
